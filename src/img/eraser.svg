@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="menu" fill="#B4FFFF">
+            <g id="option">
+                <g id="transform">
+                    <g id="eraser">
+                        <path d="M5.662,22 L0.293,16.635 C0.098,16.44 1.66533454e-16,16.185 1.66533454e-16,15.928 C1.66533454e-16,15.672 0.098,15.416 0.293,15.221 L15.222,0.293 C15.417,0.099 15.673,-4.21884749e-15 15.929,-4.21884749e-15 C16.184,-4.21884749e-15 16.441,0.099 16.636,0.293 L23.707,7.366 C23.903,7.561 24,7.817 24,8.074 C24,8.33 23.903,8.585 23.707,8.781 L12.491,20 L18.005,20 L18.005,22 L5.662,22 Z M9.319,20 L3.833,14.514 L2.414,15.928 L6.49,20 L9.319,20 Z M15.924,2.419 L5.247,13.099 L10.905,18.758 L21.581,8.076 L15.924,2.419 L15.924,2.419 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.56,8.8817842e-16 L9.71978963,0.00711495116 C10.2482645,0.0542975207 10.7309091,0.333636364 11.04,0.77 L11.04,0.77 L15.08,6.42 C15.33,6.77 15.33,7.23 15.09,7.58 L15.09,7.58 L11.05,13.23 C10.71,13.71 10.15,14 9.56,14 L9.56,14 L9.41310815,13.9944796 C8.01393333,13.8885222 7.229,12.2796667 8.07,11.11 L8.07,11.11 L11,7 L8.07,2.89 C7.21,1.68 8.07,8.8817842e-16 9.56,8.8817842e-16 L9.56,8.8817842e-16 Z M2.56,8.8817842e-16 L2.71979715,0.00711495116 C3.24834711,0.0542975207 3.73181818,0.333636364 4.05,0.77 L4.05,0.77 L8.08,6.42 C8.33,6.77 8.33,7.23 8.09,7.58 L8.09,7.58 L4.05,13.23 C3.71,13.71 3.15,14 2.56,14 L2.56,14 L2.41310815,13.9944796 C1.01393333,13.8885222 0.229,12.2796667 1.07,11.11 L1.07,11.11 L4,7 L1.07,2.89 C0.2,1.68 1.07,8.8817842e-16 2.56,8.8817842e-16 L2.56,8.8817842e-16 Z" id="path-1"></path>
+        <filter x="-41.3%" y="-42.9%" width="182.5%" height="185.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.294117647   0 0 0 0 0   0 0 0 0 0.670588235  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="changeColor" transform="translate(-1.000000, -1.000000)" fill-rule="nonzero">
+            <g id="double_arrow-24px" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000) ">
+                <g id="Master" transform="translate(4.000000, 5.000000)">
+                    <g id="Group">
+                        <g id="Combined-Shape">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#4B00AB" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

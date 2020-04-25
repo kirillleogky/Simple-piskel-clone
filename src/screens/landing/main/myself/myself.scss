@@ -1,0 +1,36 @@
+.myself_block {
+    height: 555px;
+
+    &-title {
+        font-size: 3em;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 5%;
+    }
+}
+
+.info_block {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    &-img {
+        width: 35%;
+        height: 100%;
+        border-radius: 10%;
+        -moz-border-radius: 10%;
+        -webkit-border-radius: 10%;
+    }
+
+    &-text {
+        width: 40%;
+        color: rgba(175, 175, 175, 1);
+        line-height: 45px;
+        padding-top: 3%;
+    }
+
+    &-logo {
+        width: 20%;
+        margin: 4%;
+    }
+}

@@ -1,0 +1,32 @@
+@import 'head/head';
+@import 'main/main';
+@import 'footer/footer';
+
+.wrapper {
+    max-width: 1440px;
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 300;
+    background-color: rgba(64, 64, 64, 1);
+}
+
+.btn,
+a {
+    border: none;
+
+    &:hover {
+        color: rgba(12, 204, 204, 1);
+        cursor: pointer;
+    }
+}
+
+a,
+h1,
+h2,
+h3,
+.btn {
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    outline: none;
+    color: rgba(180, 255, 255, 1);
+}
