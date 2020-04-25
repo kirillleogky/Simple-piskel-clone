@@ -1,0 +1,76 @@
+.main_block-frames {
+    width: 170px;
+    height: 90%;
+    border-radius: 20px 20px 19px 20px;
+    -moz-border-radius: 20px 20px 19px 20px;
+    -webkit-border-radius: 20px 20px 19px 20px;
+    border: 0px solid rgba(0, 0, 0, 1);
+    background-color: rgba(66, 14, 0, 1);
+    overflow-y: auto;
+}
+
+.frame {
+    width: 90%;
+    height: 153px;
+    margin: 5%;
+    position: relative;
+
+    &_add-btn {
+        width: 100%;
+        font-size: 1em;
+        padding-top: 5%;
+        background-color: rgba(66, 14, 0, 1);
+        border: none;
+
+        &:hover {
+            color: rgba(180, 255, 255, 1);
+
+            &:active {
+                color: rgba(75, 0, 171, 0.5);
+            }
+        }
+    }
+
+    &:hover .frame-btn {
+        opacity: 1;
+    }
+
+    &-btn {
+        position: absolute;
+        z-index: 10;
+        border: none;
+        background-color: transparent;
+        opacity: 0;
+        transition: opacity 0.5s linear;
+
+        &:active {
+            color: rgba(75, 0, 171, 0.5) !important;
+        }
+    }
+}
+
+.copy-btn {
+    top: 0;
+    right: 0;
+}
+
+.del-btn {
+    right: 0;
+    bottom: 0;
+}
+
+.move-btn {
+    bottom: 0;
+    left: 0;
+    cursor: move;
+}
+
+.frame-active {
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(180, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(180, 255, 255, 1);
+    box-shadow: 0px 0px 10px 1px rgba(180, 255, 255, 1);
+}
+
+.frame-canvas {
+    width: 100%;
+}

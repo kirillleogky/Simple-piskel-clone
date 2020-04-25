@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Piskel Clone</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header_block">
+
+            <div class="header_block-logo">
+                <div class="header_block-logo_text">Simple</div>
+                <img src="../img/logo_piskel.png" alt="Logo Piskel" class="header_block-logo_icon">
+            </div>
+
+            <nav class="header_block-navigation head_nav_block">
+                <ul class="head_nav_block-list head_nav_list">
+                    <li class="head_nav_list-item"><a href="../app/app.html" class="head_nav_list-link">Create Sprite</a></li>
+                    <li class="head_nav_list-item"><button type="button" class="head_nav_list-btn btn sign_in_btn">Sign in</button></li>
+                </ul>
+            </nav>
+
+        </header>
+
+
+        <main class="main_block">
+            <div class="main_block-modal_window" id="modal_window">
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Create Sprite</h3>
+                    <input type="text" name="" value="Q" class="modal_window-key_input" id="modal_window-main_page">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Bucket</h3>
+                    <input type="text" name="" value="W" class="modal_window-key_input" id="modal_window-bucket">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Choose Pixel Color</h3>
+                    <input type="text" name="" value="E" class="modal_window-key_input" id="modal_window-choose_color">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Pencil</h3>
+                    <input type="text" name="" value="R" class="modal_window-key_input" id="modal_window-pencil">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Fill All Canvas</h3>
+                    <input type="text" name="" value="T" class="modal_window-key_input" id="modal_window-fill_all">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Stroke</h3>
+                    <input type="text" name="" value="Y" class="modal_window-key_input" id="modal_window-stroke">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Eraser</h3>
+                    <input type="text" name="" value="U" class="modal_window-key_input" id="modal_window-eraser">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Current Color</h3>
+                    <input type="text" name="" value="I" class="modal_window-key_input" id="modal_window-curr_color">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Extra Color</h3>
+                    <input type="text" name="" value="O" class="modal_window-key_input" id="modal_window-extra_color">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Change Current Color</h3>
+                    <input type="text" name="" value="P" class="modal_window-key_input" id="modal_window-change_color">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">One Pixel Pen Size</h3>
+                    <input type="text" name="" value="A" class="modal_window-key_input" id="modal_window-one_pixel">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Two Pixel Pen Size</h3>
+                    <input type="text" name="" value="S" class="modal_window-key_input" id="modal_window-two_pixel">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Three Pixel Pen Size</h3>
+                    <input type="text" name="" value="D" class="modal_window-key_input" id="modal_window-three_pixel">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Four Pixel Pen Size</h3>
+                    <input type="text" name="" value="F" class="modal_window-key_input" id="modal_window-four_pixel">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Canvas 32x32</h3>
+                    <input type="text" name="" value="G" class="modal_window-key_input" id="modal_window-canvas32x32">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Canvas 64x64</h3>
+                    <input type="text" name="" value="H" class="modal_window-key_input" id="modal_window-canvas64x64">
+                </div>
+                <div class="modal_window-key">
+                    <h3 class="modal_window-key_title">Canvas 128x128</h3>
+                    <input type="text" name="" value="J" class="modal_window-key_input" id="modal_window-canvas128x128">
+                </div>
+                <button type="button" name="button" class="modal_window-btn btn">Close Modal Window</button>
+                <h2 class="modal_window-supported_values">Supported Values: q, w, e, r, t, y, u, i, o, p, a, s, d, f, g, h, j, k, l, z, x, c, v, b, n, m - in upper and lower case</h2>
+            </div>
+            <div class="main_block-navigation">
+
+                <div class="main_block-nav_items first_nav_block">
+
+                    <div class="first_nav_block-bucket_item first_block-icon icon-block" id="bucket" data-title="Bucket">
+                        <img src="../img/bucket.svg" alt="bucket" class="bucket-icon icon">
+                    </div>
+
+                    <div class="first_nav_block-choose_color_item first_block-icon icon-block" id="choose_color" data-title="Choose Color">
+                        <img src="../img/choose.svg" alt="choose" class="choose-icon icon">
+                    </div>
+
+                    <div class="first_nav_block-pencil_item first_block-icon icon-block" id="pencil" data-title="Pencil">
+                        <img src="../img/pencil.svg" alt="pencil" class="pencil-icon icon">
+                    </div>
+
+                    <div class="first_nav_block-fill_item first_block-icon icon-block" data-title="Fill All" id="fill_all">
+                        <img src="../img/fillAll.svg" alt="Fill All" class="fillAll-icon icon">
+                    </div>
+
+                    <div class="first_nav_block-stroke_item first_block-icon icon-block" id="stroke" data-title="Stroke">
+                        <img src="../img/stroke.svg" alt="stroke" class="stroke-icon icon">
+                    </div>
+
+                    <div class="first_nav_block-eraser_item first_block-icon icon-block" data-title="Eraser" id="eraser">
+                        <img src="../img/eraser.svg" alt="eraser" class="eraser-icon icon">
+                    </div>
+
+                </div>
+
+                <div class="main_block-nav_items second_nav_block">
+
+                    <div class="second_nav_block-item second_block-icon icon-block" id="curr-color" data-title="Current Color">
+                        <div class="second_nav_block-icon curr-icon"></div>
+                        <input type="color" id="curr-icon-input" name="body" value="#01c8d5">
+                    </div>
+
+                    <div class="icon-block change_color" data-title="Set Extra Color">
+                        <div class="change_color-icon icon"></div>
+                    </div>
+
+                    <div class="second_nav_block-item second_block-icon icon-block" id="extra-color" data-title="Extra Color">
+                        <div class="second_nav_block-icon extra-icon"></div>
+                        <input type="color" id="extra-icon-input" name="body" value="#9a0058">
+                    </div>
+
+                </div>
+
+                <div class="main_block-nav_items third_nav_block">
+                    <div class="third_nav_block-one_item icon-block third_block-icon active" id="one-pixel" data-title="Single Pen Size">
+                        <img src="../img/onePixel.svg" alt="One Pixel" class="one-pixel-icon pixel-icon icon">
+                    </div>
+                    <div class="third_nav_block-one_item icon-block third_block-icon" id="two-pixel" data-title="Double Pen Size">
+                        <img src="../img/twoPixel.svg" alt="Two Pixel" class="two-pixel-icon pixel-icon icon">
+                    </div>
+                    <div class="third_nav_block-one_item icon-block third_block-icon" id="three-pixel" data-title="Triple Pen Size">
+                        <img src="../img/threePixel.svg" alt="Three Pixel" class="three-pixel-icon pixel-icon icon">
+                    </div>
+                    <div class="third_nav_block-one_item icon-block third_block-icon" id="four-pixel" data-title="Quadruple Pen Size">
+                        <img src="../img/fourPixel.svg" alt="Four Pixel" class="four-pixel-icon pixel-icon icon">
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_block-frames frames-block">
+                <button type="button" name="button" class="frame_add-btn btn">Add Frame</button>
+                <div class="frame frame-active" id="1">
+                    <button type="button" class="frame-btn copy-btn btn">Copy</button>
+                    <button type="button" class="frame-btn del-btn btn">Del</button>
+                    <button type="button" class="frame-btn move-btn btn">Move</button>
+                    <canvas class="frame-canvas" width="512" height="512" id="frame_1"></canvas>
+                </div>
+            </div>
+            <canvas id="canvas" width="512" height="512" class="canvas"></canvas>
+
+            <div class="main_block-output output_block">
+                <div class="output_block-animation">
+                </div>
+                <div class="output_block-anim_nav animation_nav">
+                    <div class="animation_nav-full_screen icon-anim" data-title="Full Screen">
+                        <img src="../img/full_screen.svg" alt="full screen" class="animation_nav-full_screen-icon output-icon">
+                    </div>
+                </div>
+                <div class="output_block-canvas_size canvas_size 32x32_btn"><button type="button" name="button" class="canvas_size-btn btn" id="32x32">32x32</button></div>
+                <div class="output_block-canvas_size canvas_size 64x64_btn"><button type="button" name="button" class="canvas_size-btn btn" id="64x64">64x64</button></div>
+                <div class="output_block-canvas_size canvas_size 128x128_btn"><button type="button" name="button" class="canvas_size-btn btn" id="128x128">128x128</button></div>
+            </div>
+        </main>
+        <footer class="footer_block">
+            <button type="button" name="button" class="footer_block-btn btn">Modal window to change keyboard shortcuts</button>
+        </footer>
+    </div>
+
+<script type="text/javascript" src="../app/main.js"></script></body>
+
+</html>

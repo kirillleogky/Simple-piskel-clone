@@ -1,0 +1,85 @@
+@mixin borderandshadow($prop) {
+    border-radius: $prop;
+    -moz-border-radius: $prop;
+    -webkit-border-radius: $prop;
+    border: 0px solid rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.75);
+}
+
+@mixin borderadius($prop) {
+    border-radius: $prop $prop $prop $prop;
+    -moz-border-radius: $prop $prop $prop $prop;
+    -webkit-border-radius: $prop $prop $prop $prop;
+    border: 0px solid rgba(0, 0, 0, 1);
+}
+
+.main_block-output {
+    width: 230px;
+    height: 90%;
+}
+
+
+.output_block {
+    &-animation {
+        width: 90%;
+        height: 30%;
+        background-color: rgba(139, 164, 164, 1);
+        @include borderandshadow(20px 20px 19px 20px);
+    }
+
+    &-anim_nav {
+        width: 90%;
+        margin-top: 5%;
+        height: 7%;
+        background-color: rgba(139, 164, 164, 1);
+        @include borderandshadow(10px 10px 9px 10px);
+    }
+}
+
+.animation_nav-full_screen {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+
+    &-icon {
+        width: 60%;
+        height: 90%;
+        padding: 5%;
+    }
+}
+
+.icon-anim {
+    position: relative;
+}
+
+.icon-anim:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 10%;
+    top: 90%;
+    background-color: rgba(241, 226, 213, 1);
+    padding: 5px 10px;
+    width: 175%;
+    height: 25%;
+    color: rgba(66, 14, 0, 1);
+    @include borderadius(5px);
+}
+
+.canvas_size {
+    width: 90%;
+    height: 5%;
+    margin-top: 5%;
+    background-color: rgba(139, 164, 164, 1);
+    @include borderadius(10px);
+
+    &-btn {
+        width: 100%;
+        height: 100%;
+        font-size: 1em;
+        font-weight: 600;
+        border: none;
+        background-color: transparent;
+    }
+}

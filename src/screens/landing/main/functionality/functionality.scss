@@ -1,0 +1,19 @@
+.functionality_block {
+    margin-top: 5%;
+    height: 500px;
+
+    &-title {
+        font-size: 3em;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 5%;
+    }
+
+    &-text {
+        padding-bottom: 2%;
+        width: 90%;
+        margin: 0 auto;
+        color: rgba(175, 175, 175, 1);
+        font-size: 1.25em;
+    }
+}
